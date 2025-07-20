@@ -17,7 +17,7 @@ class Solution:
         return self.helper(l1, l2)
 
     def helper(self, l1: ListNode, l2: ListNode) -> ListNode:
-        result = ListNode()  # Создаём новый узел для результата
+        result = ListNode()
         current = result
         carry = 0
 
